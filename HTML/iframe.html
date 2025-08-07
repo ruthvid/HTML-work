@@ -1,0 +1,36 @@
+<!-- 
+    iframe is used to create a website inside a website
+    iframe is a inline-block level element :--- accepts height and width
+ -->
+<!--
+    Syntax : 
+    <iframe src="" frameborder="0"></iframe> 
+-->
+<!-- 
+    iframe using anchor tag :
+
+    <iframe src="reference url" frameborder="0" width="" height="" name=""></iframe>
+
+    <a href="reference url" target="iframename"> content <a/>
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <center>
+        <iframe src="" frameborder="1" name="iframe1" width="500" height="500"></iframe>
+    </center>
+    <br>
+    <center>
+        <a href="https://en.wikipedia.org/wiki/C%2B%2B" target="iframe1"><img src="./images/C++.png" alt="" height="100"></a>
+        &nbsp;&nbsp;
+        <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="iframe1"><img src="./images/Java.png" alt="" height="100"></a>
+        &nbsp;&nbsp;
+        <a href="https://en.wikipedia.org/wiki/Python" target="iframe1"><img src="./images/Python.png" alt="" height="100"></a>
+    </center>
+ </body>
+ </html>
