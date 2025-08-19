@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="./submit.html">
+        <label for="fname">First Name:</label>
+        <input type="text" name="firstname" id="fname">
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lastname" id="lname">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="pass">Password:</label>
+        <input type="password" name="password" id="pass">
+        <br>
+        <label for="">Gender:</label>
+        <br>
+        <label for="male">Male:</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <br>
+        <label for="female">Female:</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <br>
+        <label for="others">Others:</label>
+        <input type="radio" name="gender" id="others" value="others">
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age">
+        <br>
+        <label for="">Preferences:</label>
+        <br>
+        <label for="acryclic">Acryclic Painting:</label>
+        <input type="checkbox" name="" id="acryclic">
+        <br>
+        <label for="oil">Oil Painting:</label>
+        <input type="checkbox" name="" id="oil">
+        <br>
+        <label for="watercolour">WaterColour Painting:</label>
+        <input type="checkbox" name="" id="watercolour">
+        <br>
+        <label for="occupation">Select Occupation:</label>
+        <select name="occupation" id="occupation">
+            <option value="" selected disabled>--select--</option>
+            <option value="student">Student</option>
+            <option value="employee">Employee</option>
+            <option value="housewife">HouseWife</option>
+            <option value="bussiness">Bussiness</option>
+        </select>
+        <br>
+        <label for="bio">Bio:</label>
+        <textarea name="" id="bio" cols="30" rows="5" placeholder="write about your self..."></textarea>
+        <br>
+        <button>submit</button>
+        <button>reset</button>
+    </form>
+</body>
+</html>

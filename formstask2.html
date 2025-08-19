@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <div align="center">
+        <h3>Personal Details</h3>
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+            <br><br>
+            <label for="pass">Password:</label>
+            <input type="password" name="password" id="pass">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email">
+            <br><br>
+            <label for="">Gender:</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male<label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+            <br><br>
+            <label for="contact">Conatct <span style="color: red;">*</span>:</label>
+            <input type="tel" name="contact" id="contact" required max="10">
+            <br>
+            <h3>Educational Qualifications</h3>
+            <label for="degree">Degree:</label>
+            <select name="degree" id="degree">
+                <option value="" selected disabled>--select--</option>
+                <option value="bba">BBA</option>
+                <option value="commerce">Commerce</option>
+                <option value="bca">BCA</option>
+            </select>
+            <br><br>
+            <label for="btech">B-Tech:</label>
+            <select name="btech" id="btech">
+                <option value="">--seletc--</option>
+                <option value="cse">CSE</option>
+                <option value="ece">ECE</option>
+                <option value="eee">EEE</option>
+                <option value="mech">Mechanical</option>
+                <option value="civil">Civil</option>
+            </select>
+            <br><br>
+            <label>Hobbies:</label>
+            <input type="checkbox" id="chess" name="hobby" value="chess">
+            <label for="chess">Playing Chess</label>
+            <input type="checkbox" id="reading" name="hobby" value="reading">
+            <label for="reading">Reading Books</label>
+            <br>
+            <h3>Address</h3>
+            <label for="address"></label>
+            <textarea name="address" id="address" cols="30" rows="5" placeholder="enter your address here..."></textarea>
+            <br><br>
+            <label for="resume">Attach Resume:</label>
+            <input type="file" name="resume" id="resume" accept=".docx,.pdf,.dox">
+            <br><br>
+            <input type="submit" name="" id="" value="SUBMIT">
+        </form>
+    </div>
+</body>
+</html>
